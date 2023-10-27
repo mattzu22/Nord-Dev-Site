@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  @apply font-primary;
+  @apply bg-nord-neutral-10;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
