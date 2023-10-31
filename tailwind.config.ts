@@ -1,6 +1,6 @@
-import type { Config } from 'tailwindcss'
+/** @type {import('tailwindcss').Config} */
 
-const config: Config = {
+module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,13 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      minHeight:{
+        homeMobile: 'calc(100vh - 180px)',
+        homeDesktop: 'calc(100vh - 116px)',
+        bgAbout: 'calc(100% - 400px)'
+      },
       backgroundImage: {
-        line: "url('/src/assets/linha.png')",
         notebook: "url('/src/assets/notebook.png')",
         about: "url('/src/assets/bg-about.png')",
+        bgDesktop: "url('/src/assets/vector-5.png')",
+        bgDesktop2: "url('/src/assets/vector-3.png')",
       },
       screens: {
-        tablet: '850px',
+        tabletSM: '600px',
+        tabletMD: '800px',
+        laptopMD: '1280px',
+        laptopLG: '1440px',
       },
       fontFamily: {
         primary: 'Poppins, sans-serif',
@@ -32,4 +41,4 @@ const config: Config = {
   },
   plugins: [],
 }
-export default config
+

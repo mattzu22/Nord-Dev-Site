@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
 
 
 *{
@@ -30,3 +30,34 @@ body {
   color: white;
   font-weight: 400;
 }
+
+@layer components{
+  .social{
+    @apply text-[3.2rem] text-yellow-500 rounded-[50%]
+  }
+}
+
+@layer components{
+  .service{
+    @apply flex flex-col items-center max-w-[210px] text-center mb-[5rem] laptopMD:max-w-[300px]
+  }
+
+  .img-service{
+    @apply max-w-[133px] mb-[2rem] laptopMD:max-w-[140px]
+  }
+
+  .title{
+    @apply text-[2.2rem] font-[600] mb-[1rem] laptopMD:text-[2.6rem]
+  }
+
+  .description{
+    @apply text-[1.5rem] laptopMD:text-[1.9rem]
+  }
+}
+
+@layer components{
+ .text-key{
+  @apply text-yellow-500
+ }
+}
+
