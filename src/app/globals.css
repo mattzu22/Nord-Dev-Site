@@ -61,3 +61,37 @@ body {
  }
 }
 
+
+  .swiper {
+    @apply !flex !flex-col justify-center !max-w-full !mt-[4rem] !overflow-hidden !gap-[2rem]
+  }
+  
+  .swiper-pagination{
+    @apply bottom-0
+  }
+  
+  .swiper-slide {
+    @apply !w-[200px] !mr-0 !flex !items-center !justify-center bg-center bg-cover
+  }
+  
+  .swiper-wrapper{
+    @apply !flex !items-center !justify-start
+  }
+  
+  .swiper-pagination-bullet{
+    @apply !bg-white !opacity-100;
+  }
+
+  .swiper-pagination{
+    @apply !relative
+  }
+  
+  .swiper-pagination-bullet-active {
+    @apply !bg-yellow-500;
+  }
+
+  .swiper-slide img {
+    @apply !w-[200px] !max-w-full tabletSM:!w-[400px]
+  }
+
+ 
