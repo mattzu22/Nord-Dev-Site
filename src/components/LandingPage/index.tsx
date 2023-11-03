@@ -5,7 +5,6 @@ import { About } from "../About";
 import { Projects } from "../Projects";
 import { HomePage } from "../HomePage";
 import { Footer } from "../Footer";
-import { Partners } from "../Partners";
 import { Teams } from "../Teams";
 import { Supporters } from "../Supporters";
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import empresas from "../../assets/empresas.png"
+import empresas from "../../../public/assets/empresas.png"
 
 export function Supporters() {
   return (

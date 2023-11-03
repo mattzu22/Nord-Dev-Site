@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import bgRequest from "../../assets/bg-request.png";
+import bgRequest from "../../../public/assets/bg-request.png";
 
 export function RequestQuode() {
   return (
