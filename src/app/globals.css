@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
 
-
 *{
   margin: 0;
   padding: 0;
@@ -27,7 +26,6 @@ html{
 body {
   @apply font-primary;
   @apply bg-nord-neutral-10;
-  /* @apply pt-[170px] tabletLG:pt-[120px]; */
   font-size: 1.6rem;
   color: white;
   font-weight: 400;
@@ -110,8 +108,5 @@ body {
     @apply !bg-yellow-500;
   }
 
-  /* .swiper-slide img {
-    @apply !w-[415px] tabletSM:!w-[400px]
-  } */
 
  

@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import bgAboutMobile from "../../../public/assets/bg-about-mobile.png";
-import imageAbout from "../../../public/assets/bg-image-about.png";
-import bgAboutDesktop from "../../../public/assets/bg-about-desktop.png";
-import imageAboutDesktop from "../../../public/assets/image-about-desktop.png";
+import bgAboutMobile from "../../assets/bg-about-mobile.png";
+import imageAbout from "../../assets/bg-image-about.png";
+import bgAboutDesktop from "../../assets/bg-about-desktop.png";
+import imageAboutDesktop from "../../assets/image-about-desktop.png";
 
 export function About() {
   return (

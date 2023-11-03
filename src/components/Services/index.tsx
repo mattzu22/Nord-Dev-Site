@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import cyberSecurity from "../../../public/assets/cybersecurity.svg";
-import devWeb from "../../../public/assets/dev-web.svg";
-import desing from "../../../public/assets/Design.svg";
-import hospedagem from "../../../public/assets/Hospedagem.svg";
-import socialMedia from "../../../public/assets/social-media.svg";
+import cyberSecurity from "../../assets/cyberSecurity.svg";
+import devWeb from "../../assets/dev-web.svg";
+import desing from "../../assets/design.svg";
+import hospedagem from "../../assets/hospedagem.svg";
+import socialMedia from "../../assets/social-media.svg";
 
 export function Services() {
   return (
