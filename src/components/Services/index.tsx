@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import cyberSecurity from "../../assets/cyberSecurity.svg";
+import cyberSecurity from "../../assets/cybersecurity.svg";
 import devWeb from "../../assets/dev-web.svg";
 import desing from "../../assets/design.svg";
 import hospedagem from "../../assets/hospedagem.svg";
