@@ -1,16 +1,8 @@
-import { About } from "@/components/About";
-import { Footer } from "@/components/Footer";
-import { HomePage } from "@/components/HomePage";
+import { LandingPage } from "@/components/LandingPage";
 
 
 export default function Home() {
   return (
-    <>
-    <main >
-      <HomePage />
-    </main>
-
-    <Footer />
-  </>
+    <LandingPage />
   )
 }

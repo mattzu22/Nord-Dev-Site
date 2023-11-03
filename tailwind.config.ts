@@ -21,8 +21,10 @@ module.exports = {
       },
       screens: {
         tabletSM: '600px',
-        tabletMD: '800px',
-        laptopMD: '1280px',
+        tabletMD: '768px',
+        tabletLG: '950PX',
+        laptopSM: '1070px',
+        laptopMD: '1200PX',
         laptopLG: '1440px',
       },
       fontFamily: {

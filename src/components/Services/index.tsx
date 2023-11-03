@@ -8,11 +8,11 @@ import socialMedia from "../../assets/social-media.svg";
 
 export function Services() {
   return (
-    <section className="flex flex-col items-center justify-center my-[2.5rem] max-w-[1440px] mx-auto tabletSM:flex-wrap">
-      <h1 className="before:bg-white before:w-[4.5rem] before:h-[1px] after:bg-white after:w-[4.5rem] after:h-[1px] flex justify-center items-center gap-[1.5rem] font-[200] text-[3.4rem] laptopMD:text-[5.9rem]">
+    <section className="flex flex-col items-center justify-center my-[2.5rem] max-w-[1440px] mx-auto tabletSM:flex-wrap" id="servicos">
+      <h1 className="before:bg-white before:w-[4.5rem] before:h-[1px] after:bg-white after:w-[4.5rem] after:h-[1px] flex justify-center items-center gap-[1.5rem] font-[200] text-[3.4rem] laptopSM:text-[5.9rem]">
         Nossos
       </h1>
-      <h3 className="text-[3.5rem] font-bold mb-[2.4rem] laptopMD:text-[6rem]">Serviços</h3>
+      <h3 className="text-[3.5rem] font-bold mb-[2.4rem] laptopSM:text-[6rem]">Serviços</h3>
 
       <div className="flex flex-col items-center justify-center tabletSM:flex-wrap tabletSM:flex-row tabletSM:gap-[10%] pt-[4rem]">
         <div className="service">
