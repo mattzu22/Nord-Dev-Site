@@ -19,8 +19,7 @@ export function HomePage() {
             Serviço completo para a sua empresa
           </h1>
           <p className="text-[1.3rem] tabletSM:text-[1.8rem] laptopSM:text-[1.8rem] tabletMD:text-[2.4rem] tabletLG:text-[1.6rem] laptopMD:text-[2rem] laptopLG:text-[2.2rem]">
-            Desenvolvemos e construímos websites para a sua empresa, além de
-            serviços de manutenção, etc.
+          Construindo o futuro da web, unindo inovação e excelência digital.
           </p>
 
           <div className="pt-[2.4rem] flex justify-center items-center gap-[2rem] tabletMD:gap-[4.4rem] tabletLG:justify-start ">
