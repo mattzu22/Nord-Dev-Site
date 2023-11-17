@@ -21,7 +21,7 @@ export function Services() {
           <div>
             <h3 className="title">Cyber Security</h3>
             <p className="description">
-              A equipe de suporte precisa saber que o gerenciador.
+              Protegendo seus serviços digitais com soluções avançadas para uma presença online segura.
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ export function Services() {
           <Image className="img-service" src={desing} alt="" />
           <h3 className="title">Design</h3>
           <p className="description">
-            A equipe de suporte precisa saber que o gerenciador.
+            Transformamos suas ideias em experiências visuais marcantes, criando designs inovadores e envolventes.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ export function Services() {
           <Image className="img-service" src={devWeb} alt="" />
           <h3 className="title">Web Development</h3>
           <p className="description">
-            A equipe de suporte precisa saber que o gerenciador.
+            Desenvolvemos a espinha dorsal da sua presença online, com tecnologias atuais e funcionalidades robustas.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ export function Services() {
           <Image className="img-service" src={hospedagem} alt="" />
           <h3 className="title">Hospedagem</h3>
           <p className="description">
-            A equipe de suporte precisa saber que o gerenciador.
+            Oferecemos serviços de hospedagem confiáveis para manter seu site sempre disponível e eficiente.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export function Services() {
           <Image className="img-service" src={socialMedia} alt="" />
           <h3 className="title">Social Media</h3>
           <p className="description">
-            A equipe de suporte precisa saber que o gerenciador.
+            Potencializamos sua marca nas redes sociais, criando estratégias envolventes para impulsionar sua presença online.
           </p>
         </div>
       </div>

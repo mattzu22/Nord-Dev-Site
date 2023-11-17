@@ -75,11 +75,11 @@ body {
 
 @layer components{
   .active{
-    @apply  py-[1.3rem] transition-all laptopSM:py-[42px] border-b-yellow-500 border-b-4 text-yellow-500
+    @apply  py-[1.3rem] text-[1.7rem] transition-all laptopSM:py-[42px] border-b-yellow-500 border-b-4 text-yellow-500
   }
 
   .links{
-    @apply hover:text-white transition-all 
+    @apply hover:text-white transition-all text-[1.7rem]
   }
 }
 

@@ -14,10 +14,10 @@ module.exports = {
         bgAbout: 'calc(100% - 400px)'
       },
       backgroundImage: {
-        notebook: "url('/src/assets/notebook.png')",
-        about: "url('/src/assets/bg-about.png')",
-        bgDesktop: "url('/src/assets/vector-5.png')",
-        bgDesktop2: "url('/src/assets/vector-3.png')",
+        notebook: "url('./src/assets/notebook.png')",
+        about: "url('.src/assets/bg-about.png')",
+        bgDesktop: "url('./src/assets/vector-5.png')",
+        bgDesktop2: "url('./src/assets/vector-3.png')",
       },
       screens: {
         tabletSM: '600px',
