@@ -26,7 +26,6 @@ export function About() {
           </h2>
 
           <p className="text-[1.5rem] font-[600] tabletSM:text-[1.9rem] tabletMD:text-[2.8rem] laptopMD:text-[3.1rem] laptopLG:text-[3.9rem]">
-            {/* Recém- chegada no mercado, a Nord Dev tem como missão trazer soluções inovadoras para entregar sites dinâmicos com designs criativos, utilizando as tecnologias mais recentes para contribuir no sucesso de nossos clientes. */}
             Criando e melhorando sistemas com{" "}
             <span className="text-key">TECNOLOGIA</span>,
             <span className="text-key">INOVAÇÃO</span> &{" "}
@@ -54,3 +53,5 @@ export function About() {
     </section>
   );
 }
+
+
