@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
 
 *{
   margin: 0;
@@ -26,9 +25,9 @@ html{
 body {
   @apply font-primary;
   @apply bg-nord-neutral-10;
-  font-size: 1.6rem;
-  color: white;
-  font-weight: 400;
+  @apply font-[1.6rem];
+  @apply text-white;
+  @apply font-[500];
 }
 
 @layer components{
@@ -39,7 +38,7 @@ body {
 
 @layer components{
   .service{
-    @apply flex flex-col items-center max-w-[210px] text-center mb-[5rem] laptopSM:max-w-[300px]
+    @apply flex flex-col items-center max-w-[320px] text-center mb-[5rem] laptopSM:max-w-[350px] laptopLG:max-w-[370px]
   }
 
   .img-service{
@@ -84,29 +83,29 @@ body {
 }
 
 
-  .swiper-slide img {
-    @apply rounded-[0.5rem] tabletMD:w-[400px] laptopLG:w-full tabletMD:h-[300px] tabletMD:object-cover
-  }
+.swiper-slide img {
+  @apply rounded-[0.5rem] tabletMD:w-[400px] laptopLG:w-full tabletMD:h-[300px] tabletMD:object-cover
+}
 
-  .swiper {
-    @apply !flex !flex-col justify-center !max-w-full !mt-[4rem] !overflow-hidden !gap-[2rem]
-  }
+.swiper {
+  @apply !flex !flex-col justify-center !max-w-full !mt-[4rem] !overflow-hidden !gap-[2rem]
+}
   
-  .swiper-pagination{
-    @apply bottom-0
-  }
+.swiper-pagination{
+  @apply bottom-0
+}
 
-  .swiper-pagination-bullet{
-    @apply !bg-white !opacity-100;
-  }
+.swiper-pagination-bullet{
+  @apply !bg-white !opacity-100;
+}
 
-  .swiper-pagination{
-    @apply !relative
-  }
+.swiper-pagination{
+  @apply !relative
+}
   
-  .swiper-pagination-bullet-active {
-    @apply !bg-yellow-500;
-  }
+.swiper-pagination-bullet-active {
+  @apply !bg-yellow-500;
+}
 
 
  

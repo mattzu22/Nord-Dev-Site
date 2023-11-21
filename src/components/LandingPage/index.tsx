@@ -7,24 +7,24 @@ import { HomePage } from "../HomePage";
 import { Footer } from "../Footer";
 import { Teams } from "../Teams";
 import { Supporters } from "../Supporters";
+import { useState } from "react";
 
 
 export function LandingPage() {
 
-
   return (
-    <>
+    <div>
       <Header />
 
-      <main>
+      <main >
         <HomePage />
       </main>
 
       <About />
 
       {/* <Projects /> */}
-{/* 
-      <Supporters /> */}
+
+      {/*<Supporters /> */}
 
       {/* <Teams /> */}
 
@@ -33,6 +33,6 @@ export function LandingPage() {
       <RequestQuode />
 
       <Footer />
-    </>
+    </div>
   );
 }

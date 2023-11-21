@@ -28,7 +28,7 @@ module.exports = {
         laptopLG: '1440px',
       },
       fontFamily: {
-        primary: 'Poppins, sans-serif',
+        primary: ['var(--font-poppins)'],
       },
       colors:{
         'yellow-500': '#DE901B',
