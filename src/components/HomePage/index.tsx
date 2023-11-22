@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import imgDesktop from "../../assets/home-desktop.png";
-import bgDesktop from "../../assets/Vector-5.png";
-import bgNotebook from "../../assets/Vector-3.png";
+import imgDesktop from "/public/images/home-desktop.png";
+import bgDesktop from "/public/images/Vector-5.png";
+import bgNotebook from "/public/images/Vector-3.png";
 
 export function HomePage() {
   

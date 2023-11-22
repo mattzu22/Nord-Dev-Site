@@ -25,8 +25,8 @@ export function LandingPage() {
       {/* <Projects /> */}
 
       {/*<Supporters /> */}
-
-      {/* <Teams /> */}
+{/* 
+      <Teams /> */}
 
       <Services />
 

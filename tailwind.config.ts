@@ -14,17 +14,21 @@ module.exports = {
         bgAbout: 'calc(100% - 400px)'
       },
       backgroundImage: {
-        notebook: "url('/src/images/bg-about-desktop.png')",
-        about: "url('/src/assets/bg-about.png')",
-        bgDesktop: "url('/src/assets/vector-5.png')",
-        bgDesktop2: "url('/src/assets/vector-3.png')",
+        "bg-about-deskstop": "url('/images/bg-about-desktop.png')",
+        "bg-about-mobile": "url('/images/bg-about-mobile.png')",
+        "bg-about-image-mobile": "url('/images/bg-image-about.png')",
+        "bg-about-image-desktop": "url('/images/image-about-desktop.png')",
+        "bg-request": "url('/images/bg-request.png')",
+      },
+      backgroundSize: {
+        "full": '100%',
       },
       screens: {
         tabletSM: '600px',
         tabletMD: '768px',
         tabletLG: '950PX',
         laptopSM: '1070px',
-        laptopMD: '1200PX',
+        laptopMD: '1330PX',
         laptopLG: '1440px',
       },
       fontFamily: {

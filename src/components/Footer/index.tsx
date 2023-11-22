@@ -5,8 +5,8 @@ import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { RiWhatsappFill } from "react-icons/ri";
 
-import logoFooter from "../../assets/logo-footer.png";
-import logoDesktop from "../../assets/logo.png";
+import logoFooter from "/public/images/logo-footer.png";
+import logoDesktop from "/public/images/logo.png";
 
 export function Footer() {
   return (

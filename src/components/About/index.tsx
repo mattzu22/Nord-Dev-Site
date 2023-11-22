@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import bgAboutMobile from "../../assets/bg-about-mobile.png";
-import imageAbout from "../../assets/bg-image-about.png";
-import bgAboutDesktop from "../../assets/bg-about-desktop.png";
-import imageAboutDesktop from "../../assets/image-about-desktop.png";
+import bgAboutMobile from "/public/images/bg-about-mobile.png";
+import imageAbout from "/public/images/bg-image-about.png";
+import bgAboutDesktop from "/public/images/bg-about-desktop.png";
+import imageAboutDesktop from "/public/images/image-about-desktop.png";
 
 export function About() {
   return (
@@ -53,5 +53,3 @@ export function About() {
     </section>
   );
 }
-
-

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import member from "../../assets/member.png";
+import member from "/public/images/member.png";
 
 export function Teams() {
   return (
