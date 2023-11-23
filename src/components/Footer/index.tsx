@@ -11,17 +11,16 @@ import logoDesktop from "/public/images/logo.png";
 export function Footer() {
   return (
     <footer className="bg-bg-secundary py-[5rem] tabletMD:py-[10rem]">
-      <div className="max-w-[1440px] mx-auto pl-[4.2rem] flex flex-col tabletMD:flex-row tabletMD:items-center tabletMD:justify-between tabletMD:px-[2rem] laptopSM:px-[10rem]">
-        <Link href="#">
+      <div className="max-w-[1440px] mx-auto pl-[4.2rem] flex flex-col tabletMD:flex-row tabletMD:items-center tabletMD:justify-between tabletMD:px-[2rem] laptopSM:px-[10rem]"
+      >
+        <Link href="#" className="mb-[3rem] tabletMD:mb-0 laptopLG:hidden laptopLG:absolute">
           <Image
-            className="mb-[3rem] tabletMD:mb-0 laptopLG:hidden"
             src={logoFooter}
             alt="logo"
           />
         </Link>
-        <Link href="#">
+        <Link href="#" className="hidden laptopLG:block w-[342px]">
           <Image
-            className="hidden laptopLG:block w-[342px]"
             src={logoDesktop}
             alt=""
           />

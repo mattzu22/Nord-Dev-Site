@@ -7,8 +7,11 @@ import imageAboutDesktop from "/public/images/image-about-desktop.png";
 
 export function About() {
   return (
-    <section className="max-w-[2000px] relative flex flex-col tabletLG:flex-row tabletLG:justify-center laptopSM:mx-auto laptopSM:items-center" id="quem-somos">
-      <div className="h-[460px] flex items-center border-t-[1rem] border-yellow-500 w-full justify-center laptopSM:relative tabletLG:border-l-[1.3rem] tabletMD:h-[480px] tabletLG:border-t-0 tabletLG:h-[500px] laptopLG:h-[633px] tabletLG:max-w-full tabletLG:justify-normal">
+    <section className="max-w-[2000px] relative flex flex-col tabletLG:flex-row tabletLG:justify-center laptopSM:mx-auto laptopSM:items-center overflow-hidden" id="quem-somos">
+      <div className="h-[460px] flex items-center border-t-[1rem] border-yellow-500 w-full justify-center laptopSM:relative tabletLG:border-l-[1.3rem] tabletMD:h-[480px] tabletLG:border-t-0 tabletLG:h-[500px] laptopLG:h-[633px] tabletLG:max-w-full tabletLG:justify-normal"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      >
         <Image
           className="block w-full h-full -z-10 border-top tabletLG:hidden"
           src={bgAboutMobile}
@@ -49,6 +52,8 @@ export function About() {
         className="tabletLG:block max-w-[1200px] h-[495px] laptopLG:h-[633px] w-full object-cover hidden absolute right-0 -z-10"
         src={imageAboutDesktop}
         alt=""
+        data-aos="fade-left"
+        data-aos-duration="1000"
       />
     </section>
   );

@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,10 +6,11 @@ import imgDesktop from "/public/images/home-desktop.png";
 import bgDesktop from "/public/images/Vector-5.png";
 import bgNotebook from "/public/images/Vector-3.png";
 
+
 export function HomePage() {
-  
+
   return (
-    <section id="inicio" className="py-[4rem] tabletSM:py-0" >
+    <section id="inicio" className="py-[4rem] tabletSM:py-0">
       <Image
         src={bgDesktop}
         className="hidden tabletLG:block tabletLG:absolute tabletLG:bottom-[-20rem] tabletLG:left-0"
@@ -16,7 +18,8 @@ export function HomePage() {
       />
       
       <div className="max-w-[1440px] mx-auto text-center min-h-homeMobile flex flex-col justify-center items-center tabletLG:flex tabletLG:items-center tabletLG:flex-row laptopSM:gap-[2.5rem] tabletLG:min-h-homeDesktop overflow-hidden">
-        <div className="w-[680px] min-w-[335px] max-w-full px-[16px] tabletLG:text-left">
+        <div className="w-[680px] min-w-[335px] max-w-full px-[16px] tabletLG:text-left" data-aos="fade-right"
+        data-aos-duration="1000">
           <h1 className="text-white text-[4.5rem] font-bold mb-[2.4rem] tabletSM:text-[6rem] tabletSM:max-w-[520px] tabletSM:mx-auto tabletMD:text-[6.5rem] tabletMD:max-w-[590px] tabletLG:text-[5.4rem] laptopSM:ml-0 laptopSM:max-w-full laptopSM:text-[5.6rem] laptopMD:text-[7rem] laptopLG:text-[7.1rem]">
             Bem-vindos a <span className="text-yellow-500">Nord Dev</span>
           </h1>
@@ -39,14 +42,13 @@ export function HomePage() {
             </Link> */}
           </div>
         </div>
-        <div className="bg-">
-          
-        </div>
-
+      
         <Image
           className="w-[680px] min-w-[340px] max-w-full mt-[5rem] pl-[1.5rem] tabletLG:mt-0 tabletLG:pl-0"
           src={imgDesktop}
           alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
         />
       </div>
       
