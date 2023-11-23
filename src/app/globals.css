@@ -78,7 +78,7 @@ body {
   }
 
   .links{
-    @apply hover:text-white transition-all text-[1.7rem]
+    @apply hover:text-white transition-all text-[1.7rem] cursor-pointer
   }
 }
 

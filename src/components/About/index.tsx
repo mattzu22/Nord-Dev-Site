@@ -1,15 +1,15 @@
 import Image from "next/image";
 
-import bgAboutMobile from "/public/images/bg-about-mobile.png";
-import imageAbout from "/public/images/bg-image-about.png";
-import bgAboutDesktop from "/public/images/bg-about-desktop.png";
-import imageAboutDesktop from "/public/images/image-about-desktop.png";
+import bgAboutMobile from "../../assets/bg-about-mobile.png";
+import imageAbout from "../../assets/bg-image-about.png";
+import bgAboutDesktop from "../../assets/bg-about-desktop.png";
+import imageAboutDesktop from "../../assets/image-about-desktop.png";
 
 export function About() {
   return (
     <section className="max-w-[2000px] relative flex flex-col tabletLG:flex-row tabletLG:justify-center laptopSM:mx-auto laptopSM:items-center overflow-hidden" id="quem-somos">
       <div className="h-[460px] flex items-center border-t-[1rem] border-yellow-500 w-full justify-center laptopSM:relative tabletLG:border-l-[1.3rem] tabletMD:h-[480px] tabletLG:border-t-0 tabletLG:h-[500px] laptopLG:h-[633px] tabletLG:max-w-full tabletLG:justify-normal"
-      data-aos="fade-right"
+      data-aos="fade-down"
       data-aos-duration="1000"
       >
         <Image
@@ -21,6 +21,8 @@ export function About() {
           className="hidden absolute h-full pr-[30rem] laptopMD:pr-[10rem] laptopLG:pr-0 tabletLG:block"
           src={bgAboutDesktop}
           alt=""
+          data-aos="fade-right"
+          data-aos-duration="1000"
         />
 
         <div className="absolute max-w-[656px] px-[2rem] flex justify-center flex-col gap-[1.3rem] pb-[3.5rem] tabletSM:px-[4rem] laptopMD:px-0 laptopSM:pb-0 laptopMD:ml-[8rem]">
@@ -47,6 +49,8 @@ export function About() {
         className="w-full relative top-[-90px] -z-20 tabletMD:top-[-100px] laptopSM:top-[-130px] block tabletLG:hidden"
         src={imageAbout}
         alt=""
+        data-aos="fade-up"
+        data-aos-duration="1000"
       />
       <Image
         className="tabletLG:block max-w-[1200px] h-[495px] laptopLG:h-[633px] w-full object-cover hidden absolute right-0 -z-10"

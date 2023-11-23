@@ -1,5 +1,5 @@
+import { Metadata } from 'next';
 import './globals.css'
-import Head from './head'
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({
@@ -8,13 +8,18 @@ const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap'
 });
+
+export const metadata: Metadata = {
+  title: 'Nord Dev',
+  icons: '/favicon/favicon.ico',
+  description: 'Desenvolvimento web inovador para impulsionar o seu sucesso online. Conecte-se, inspire-se, evolua - somos a sua parceira no mundo digita'
+}
  
 export default function RootLayout({children}: {
 children: React.ReactNode
 }) {
   return (
     <html lang="pt-br" className={`${poppins.variable}`}>
-      <Head />
       <body>{children}</body>
     </html>
   )

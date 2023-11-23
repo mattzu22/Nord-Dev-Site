@@ -14,11 +14,12 @@ module.exports = {
         bgAbout: 'calc(100% - 400px)'
       },
       backgroundImage: {
-        "bg-about-deskstop": "url('/images/bg-about-desktop.png')",
-        "bg-about-mobile": "url('/images/bg-about-mobile.png')",
-        "bg-about-image-mobile": "url('/images/bg-image-about.png')",
-        "bg-about-image-desktop": "url('/images/image-about-desktop.png')",
-        "bg-request": "url('/images/bg-request.png')",
+        "bg-about-deskstop": "url('../assets/bg-about-desktop.png')",
+        "bg-about-mobile": "url('../assets/bg-about-mobile.png')",
+        "bg-about-image-mobile": "url('../assets/bg-image-about.png')",
+        "bg-about-image-desktop": "url('../assets/image-about-desktop.png')",
+        "bg-request": "url('../assets/bg-request.png')",
+        "teste": "url('../assets/bg-about-desktop.png')",
       },
       backgroundSize: {
         "full": '100%',
@@ -28,7 +29,7 @@ module.exports = {
         tabletMD: '768px',
         tabletLG: '950PX',
         laptopSM: '1070px',
-        laptopMD: '1330PX',
+        laptopMD: '1200PX',
         laptopLG: '1440px',
       },
       fontFamily: {
