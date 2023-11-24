@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 
-import LinkNext from "next/link"
+import LinkNext from "next/link";
 
 import Image from "next/image";
 
@@ -10,7 +10,7 @@ export function Header() {
 
   return (
     <header className="bg-bg-secundary sticky top-0 w-full z-10">
-      <div className="max-w-[1440px] mx-auto px-[1.4rem] flex flex-col tabletSM:px-[3rem] tabletLG:flex-row tabletLG:justify-between tabletLG:items-center ">
+      <div className="max-w-[1440px] mx-auto px-[1.4rem] pb-[1.5rem] flex flex-col tabletSM:px-[3rem] tabletLG:flex-row tabletLG:pb-0 tabletLG:justify-between tabletLG:items-center ">
         <LinkNext className="links" href="/">
           <Image
             src={logo}
