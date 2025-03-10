@@ -30,6 +30,10 @@ body {
   @apply font-[500];
 }
 
+.slick-slide {
+  @apply w-[190px] flex justify-items-center items-center; 
+}
+
 @layer components{
   .social{
     @apply text-[3.2rem] text-yellow-500 rounded-[50%] hover:text-yellow-800 hover:scale-110 transition-all
@@ -83,12 +87,17 @@ body {
 }
 
 
-.swiper-slide img {
-  @apply rounded-[0.5rem] tabletMD:w-[400px] laptopLG:w-full tabletMD:h-[300px] tabletMD:object-cover
+.swiper {
+  @apply !flex !flex-col justify-center items-center !max-w-full !mt-[4rem] !overflow-hidden !gap-[2rem]
 }
 
-.swiper {
-  @apply !flex !flex-col justify-center !max-w-full !mt-[4rem] !overflow-hidden !gap-[2rem]
+
+.swiper-slider img  {
+
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
 }
   
 .swiper-pagination{
@@ -106,6 +115,3 @@ body {
 .swiper-pagination-bullet-active {
   @apply !bg-yellow-500;
 }
-
-
- 
