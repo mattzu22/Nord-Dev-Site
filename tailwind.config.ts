@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -18,6 +20,7 @@ module.exports = {
         "bg-about-mobile": "url('../assets/bg-about-mobile.png')",
         "bg-about-image-mobile": "url('../assets/bg-image-about.png')",
         "bg-about-image-desktop": "url('../assets/image-about-desktop.png')",
+        "bg-empresas": "url('../assets/empresas.png')",
         "bg-request": "url('../assets/bg-request.png')",
         "teste": "url('../assets/bg-about-desktop.png')",
       },
@@ -25,11 +28,12 @@ module.exports = {
         "full": '100%',
       },
       screens: {
+        mobileSM: '320px',
         tabletSM: '600px',
         tabletMD: '768px',
-        tabletLG: '950PX',
+        tabletLG: '950px',
         laptopSM: '1070px',
-        laptopMD: '1200PX',
+        laptopMD: '1200px',
         laptopLG: '1440px',
       },
       fontFamily: {
@@ -46,6 +50,7 @@ module.exports = {
       }
     },
   },
+  
   plugins: [],
 }
 
